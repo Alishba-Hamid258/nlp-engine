@@ -1,0 +1,24 @@
+# Python specifics
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Training outputs (adjust if needed)
+results/*
+models/absa_model/*  # Ignore trained model binaries; keep nlp_models.py
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp

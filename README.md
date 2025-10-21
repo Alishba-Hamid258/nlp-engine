@@ -4,11 +4,16 @@ A comprehensive NLP application for Named Entity Recognition (NER), Sentiment An
 Features
 
 NER: Identifies entities (e.g., people, organizations) using SpaCy.
+
 Sentiment Analysis: Computes polarity scores using NLTK's VADER.
+
 Aspect-Based Sentiment Analysis: Analyzes sentiments for specific text aspects using a fine-tuned BERT model.
+
 Profanity Detection: Flags profane words from a predefined list.
 Visualizations: Displays results as HTML tables and entity highlights.
+
 API: RESTful FastAPI endpoints for text analysis.
+
 Frontend: Interactive Streamlit interface for text input and results.
 
 File Structure
@@ -91,8 +96,11 @@ Profanity: Flags "damn".
 Notes
 
 Model Files: The trained BERT model (models/absa_model/) is not included due to size. Run train_absa.py to generate it.
+
 Profanity: Expand PROFANE_WORDS in nlp_models.py for better detection.
+
 API Port: Configurable via .env (default: 8000).
+
 Security: No API authentication; add for production use.
 
 Dependencies
@@ -100,3 +108,4 @@ See requirements.txt for details (e.g., FastAPI, Streamlit, Transformers, SpaCy,
 
 Contributing
 Fork, make changes, and submit pull requests. Issues welcome!
+

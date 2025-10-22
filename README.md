@@ -10,6 +10,7 @@ Sentiment Analysis: Computes polarity scores using NLTK's VADER.
 Aspect-Based Sentiment Analysis: Analyzes sentiments for specific text aspects using a fine-tuned BERT model.
 
 Profanity Detection: Flags profane words from a predefined list.
+
 Visualizations: Displays results as HTML tables and entity highlights.
 
 API: RESTful FastAPI endpoints for text analysis.
@@ -35,17 +36,22 @@ nlp_engine/
 Prerequisites
 
 Python 3.8+
+
 Git
+
 A virtual environment (recommended)
 
 Installation
 
 Clone the repository:
+
 git clone https://github.com/YOUR_GITHUB_USERNAME/nlp-engine.git
+
 cd nlp-engine
 
 
 Create and activate a virtual environment:
+
 python -m venv venv
 # Windows:
 venv\Scripts\activate
@@ -108,4 +114,5 @@ See requirements.txt for details (e.g., FastAPI, Streamlit, Transformers, SpaCy,
 
 Contributing
 Fork, make changes, and submit pull requests. Issues welcome!
+
 
